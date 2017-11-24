@@ -1,4 +1,4 @@
-package com.maxinmartin.vibgyor;
+package com.example.roshan.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.maxinmartin.vibgyor.MainActivity">
+    tools:context="com.example.roshan.myapplication.MainActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,23 +13,25 @@
         android:weightSum="7"
         >
 
-        <EditText
+        <TextView
             android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/holo_red_dark"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="red"
+            android:text="Red"
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
 
-        <EditText
+            android:textColor="@android:color/black"/>
+
+        <TextView
             android:id="@+id/editText7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_orange_dark"
             android:ems="10"
@@ -39,26 +41,30 @@
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
 
-        <EditText
+            android:textColor="@android:color/black"/>
+
+        <TextView
             android:id="@+id/editText6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="?attr/colorAccent"
-            android:backgroundTint="?attr/colorAccent"
+            android:background="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Yellow"
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
 
-        <EditText
+            android:textColor="@android:color/black"/>
+
+        <TextView
             android:id="@+id/editText5"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorAccent"
@@ -69,11 +75,13 @@
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
 
-        <EditText
+            android:textColor="@android:color/black"/>
+
+        <TextView
             android:id="@+id/editText4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/holo_blue_light"
@@ -84,15 +92,16 @@
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
 
-        <EditText
+            android:textColor="@android:color/black"/>
+
+        <TextView
             android:id="@+id/editText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorPrimary"
-            android:backgroundTint="@color/colorPrimary"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Indigo"
@@ -101,11 +110,11 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
-            android:textColorLink="@android:color/background_dark" />
+             />
 
-        <EditText
+        <TextView
             android:id="@+id/editText3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/background_light"
@@ -113,11 +122,13 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Violet"
-            android:textColorLink="@android:color/background_dark"
             android:textAlignment="center"
 
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"/>
 
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.maxinmartin.vibgyor;
+package com.example.roshan.myapplication;
 
 import org.junit.Test;
 
