@@ -1,4 +1,4 @@
-package com.example.roshan.myapplication;
+package com.vibgyor.max.vibgyor;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

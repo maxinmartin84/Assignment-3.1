@@ -1,4 +1,4 @@
-package com.example.roshan.myapplication;
+package com.vibgyor.max.vibgyor;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.roshan.myapplication", appContext.getPackageName());
+        assertEquals("com.vibgyor.max.vibgyor", appContext.getPackageName());
     }
 }

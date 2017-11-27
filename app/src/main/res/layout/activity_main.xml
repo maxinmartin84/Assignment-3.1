@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.roshan.myapplication.MainActivity">
+    tools:context="com.vibgyor.max.vibgyor.MainActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -23,11 +23,9 @@
             android:inputType="textPersonName"
             android:text="Red"
             android:textAlignment="center"
-
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/editText7"
@@ -39,28 +37,24 @@
             android:inputType="textPersonName"
             android:text="Orange"
             android:textAlignment="center"
-
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/editText6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:backgroundTint="@color/colorAccent"
+            android:background="?attr/colorAccent"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Yellow"
             android:textAlignment="center"
-
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/editText5"
@@ -73,11 +67,9 @@
             android:inputType="textPersonName"
             android:text="Green"
             android:textAlignment="center"
-
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/editText4"
@@ -90,11 +82,9 @@
             android:inputType="textPersonName"
             android:text="Blue"
             android:textAlignment="center"
-
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/editText"
@@ -102,15 +92,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Indigo"
             android:textAlignment="center"
 
-            android:textSize="30sp"
-            android:textStyle="bold"
             android:textColor="@android:color/black"
-             />
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/editText3"
@@ -123,11 +114,10 @@
             android:inputType="textPersonName"
             android:text="Violet"
             android:textAlignment="center"
-
+            android:textColorLink="@android:color/background_dark"
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:textColor="@android:color/black"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 

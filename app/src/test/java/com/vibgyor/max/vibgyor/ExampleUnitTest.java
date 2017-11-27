@@ -1,4 +1,4 @@
-package com.example.roshan.myapplication;
+package com.vibgyor.max.vibgyor;
 
 import org.junit.Test;
 
